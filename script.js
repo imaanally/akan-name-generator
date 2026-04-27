@@ -76,6 +76,7 @@ form.addEventListener("submit", function(event) {
     }
 
     result.textContent = `You were born on a ${dayOfWeek}. Your Akan name is ${akanName}.`;
+    form.reset();
     console.log(dayOfWeek);
     console.log(d);
     console.log(day);
