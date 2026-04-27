@@ -8,6 +8,21 @@ form.addEventListener("submit", function(event) {
     const year = document.querySelector("#year").value;
     const gender = document.querySelector("input[name='gender']:checked");
 
+    if (day === "" || month === "" || year === "" || gender === null) {
+      alert("Please fill in all fields.");
+      return;
+    }
+
+   if (day < 1 || day > 31) {
+     alert("Please enter a valid day between 1 and 31.");
+     return;
+    }
+
+   if (month < 1 || month > 12) {
+     alert("Please enter a valid month between 1 and 12.");
+     return;
+    }
+
     console.log(day);
     console.log(month);
     console.log(year);
