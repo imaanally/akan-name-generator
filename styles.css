@@ -40,7 +40,25 @@ section {
 
 section h2 {
   margin-top: 0;
-  color: #5c4033;
+  color: rgb(31, 29, 29);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+label,
+form p {
+  font-weight: bold;
+}
+
+input[type="number"] {
+  padding: 12px;
+  border: 1px solid #f4a6c0;
+  border-radius: 10px;
+  font-size: 16px;
 }
 
 
