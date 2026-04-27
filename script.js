@@ -23,6 +23,16 @@ form.addEventListener("submit", function(event) {
      return;
     }
 
+    const daysOfWeek = [
+      "Sunday",
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+    ];
+
     const CC = Math.floor(year / 100);
     const YY = year % 100;
 
@@ -35,10 +45,11 @@ form.addEventListener("submit", function(event) {
         day) %
       7;
 
+            const dayOfWeek = daysOfWeek[d];
+
+
+    console.log(dayOfWeek);
     console.log(d);
-
-
-
     console.log(day);
     console.log(month);
     console.log(year);
