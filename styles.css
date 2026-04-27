@@ -1,7 +1,7 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f7efe5;
-  color: #2f2f2f;
+  background-color: #d682a8;
+  color: rgb(31, 28, 28);
   margin: 0;
   padding: 0;
 }
@@ -9,7 +9,7 @@ body {
 header {
   text-align: center;
   padding: 50px 20px;
-  background-color: #5c4033;
+  background-color: linear-gradient(135deg, #ff8fab, #f4a6c0);
   color: white;
 }
 
@@ -23,6 +23,29 @@ header p {
   max-width: 600px;
   margin: 0 auto;
 }
+
+main {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+section {
+  background-color: white;
+  padding: 30px;
+  margin-bottom: 25px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+section h2 {
+  margin-top: 0;
+  color: #5c4033;
+}
+
+
+
+
 
 
 
