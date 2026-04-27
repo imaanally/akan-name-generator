@@ -7,7 +7,7 @@ Akan Name Generator is a simple web app that helps users find their Akan name ba
 Imaan Ali
 
 ## Live Site
-Coming soon
+https://imaanally.github.io/akan-name-generator/
 
 ## Setup Instructions
 1. Clone this repository.
