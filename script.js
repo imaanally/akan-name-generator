@@ -33,6 +33,26 @@ form.addEventListener("submit", function(event) {
       "Saturday",
     ];
 
+    const maleNames = [
+      "Kwasi",
+      "Kwadwo",
+      "Kwabena",
+      "Kwaku",
+      "Yaw",
+      "Kofi",
+      "Kwame",
+    ];
+
+    const femaleNames = [
+      "Akosua",
+      "Adwoa",
+      "Abenaa",
+      "Akua",
+      "Yaa",
+      "Afua",
+      "Ama",
+    ];
+
     const CC = Math.floor(year / 100);
     const YY = year % 100;
 
@@ -45,9 +65,17 @@ form.addEventListener("submit", function(event) {
         day) %
       7;
 
-            const dayOfWeek = daysOfWeek[d];
+    const dayOfWeek = daysOfWeek[d];
 
+    let akanName;
 
+    if (gender.value === "male") {
+      akanName = maleNames[d];
+    } else {
+      akanName = femaleNames[d];
+    }
+
+    console.log(akanName);
     console.log(dayOfWeek);
     console.log(d);
     console.log(day);
