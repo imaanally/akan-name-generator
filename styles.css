@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #d682a8;
+  background-color: #e2a4c0;
   color: rgb(31, 28, 28);
   margin: 0;
   padding: 0;
@@ -10,7 +10,7 @@ header {
   text-align: center;
   padding: 50px 20px;
   background-color: linear-gradient(135deg, #ff8fab, #f4a6c0);
-  color: white;
+  color: rgb(31, 30, 30);
 }
 
 header h1 {
@@ -61,7 +61,25 @@ input[type="number"] {
   font-size: 16px;
 }
 
+input[type="radio"] {
+  margin-right: 8px;
+}
 
+button {
+  margin-top: 15px;
+  padding: 14px;
+  border: none;
+  border-radius: 12px;
+  background-color: #ce93a2;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d86b9c;
+}
 
 
 
