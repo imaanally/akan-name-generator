@@ -56,15 +56,9 @@ form.addEventListener("submit", function(event) {
     const CC = Math.floor(year / 100);
     const YY = year % 100;
 
-    const d =
-      (4 * CC -
-        2 * CC -
-        1 +
-        5 * YY +
-        Math.floor((26 * (month + 1)) / 10) +
-        day) %
-      7;
-
+   const d = Math.floor(
+  ((4 * CC - 2 * CC - 1) + (5 * YY) + (26 * (month + 1) / 10) + day) % 7
+  );
     const dayOfWeek = daysOfWeek[d];
 
     let akanName;
